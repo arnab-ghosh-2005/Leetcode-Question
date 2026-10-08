@@ -1,0 +1,11 @@
+2. Open PowerShell in that folder and run:
+
+git add .
+
+3. Commit it:
+
+git commit -m "Add valid parentheses solution"
+
+4. Push it:
+
+git push

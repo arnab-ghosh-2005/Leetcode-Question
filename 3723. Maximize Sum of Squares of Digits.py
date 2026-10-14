@@ -20,8 +20,13 @@ if __name__ == "__main__":
     num1 = 2
     sum1 = 3
     result1 = solution.maxSumOfSquares(num1, sum1)
-    print(f"Input: num = {num1}, sum = {sum1} -> Output: {result1}")  # Expected: "30"
-    print(type(result1))
+    print(f"Input: num = {num1}, sum = {sum1} -> Output: {result1}")  # Expected: "30"7
+
+    # Test Case 2
+    num2 = 2
+    sum2 = 17
+    result2 = solution.maxSumOfSquares(num2, sum2)
+    print(f"Input: num = {num2}, sum = {sum2} -> Output: {result2}")  # Expected: "89"
 
     
     

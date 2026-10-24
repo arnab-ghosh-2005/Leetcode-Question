@@ -1,5 +1,5 @@
 class Solution:
-    def sortPermutation(self, nums: List[int]) -> int:
+    def sortPermutation(self, nums):
         max_k = -1
         
         for i, val in enumerate(nums):
